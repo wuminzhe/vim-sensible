@@ -12,7 +12,7 @@ if has('autocmd')
   filetype plugin indent on " 打开文件类型检测功能
 endif
 if has('syntax') && !exists('g:syntax_on')
-  syntax enable
+  syntax enable " 打开语法高亮
 endif
 
 " Use :help 'option' to see the documentation for the given option.
