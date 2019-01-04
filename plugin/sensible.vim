@@ -17,8 +17,8 @@ endif
 
 " Use :help 'option' to see the documentation for the given option.
 
-set autoindent
-set backspace=indent,eol,start
+set autoindent " 设置自动缩进
+set backspace=indent,eol,start " 防止linux下vim的退格删除键不能使用
 set complete-=i
 set smarttab
 
