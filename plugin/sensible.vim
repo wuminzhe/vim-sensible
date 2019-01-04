@@ -20,7 +20,7 @@ endif
 set autoindent " 设置自动缩进
 set backspace=indent,eol,start " 防止linux下vim的退格删除键不能使用
 set complete-=i
-set smarttab
+set smarttab " 在行首输入 tab 时插入宽度为 shiftwidth 的空白，在其他地方按 tabstop 和 softtabstop 处理
 
 set nrformats-=octal
 
